@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Leden</title>
+    <title>Registreer</title>
   </head>
 
   <body>
@@ -16,47 +16,49 @@
         <nav>
           <ul>
             <li id="home"><a href="index.html">Home</a></li>
-            <li id="overzicht"><a href="overzicht.html">Uitstappen</a></li>
-            <li class="active" id="registreer"><a href="#">Contact</a></li>
+            <li id="overzicht"><a href="overzicht.html">Overzicht</a></li>
+            <li class="active" id="registreer"><a href="#">Registreer</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <h2>REGISTREER</h2>
-          <div class="contactFormContainer">
-            <form>
-              <label for="voornaam">Voornaam</label>
-              <input
-                type="text"
-                id="voornaam"
-                name="voornaam"
-                placeholder="Uw voornaam..."
-              />
+        <div class="contactFormContainer">
+          <form>
+            <label for="datum">Voornaam</label>
+            <input
+              type="text"
+              id="datum"
+              name="datum"
+              placeholder="Datum (DD/MM/YYYY)"
+            />
 
-              <label for="achternaam">Achternaam</label>
-              <input
-                type="text"
-                id="achternaam"
-                name="achternaam"
-                placeholder="Uw achternaam"
-              />
+            <label for="locatie">Achternaam</label>
+            <input
+              type="text"
+              id="locatie"
+              name="locatie"
+              placeholder="Locatie"
+            />
 
-              <label for="categorie">Categorie</label>
-              <select id="categorie" name="categorie">
-                <option value="uitstappen">Uitstappen</option>
-                <option value="lid worden">Lid worden</option>
-                <option value="andere">Andere</option>
-              </select>
+            <label for="duurtijd">Onderwerp</label>
+            <input
+              type="text"
+              id="duurtijd"
+              name="duurtijd"
+              placeholder="Duurtijd (HH:MM)"
+            />
 
-              <label for="onderwerp">Onderwerp</label>
-              <textarea
-                id="onderwerp"
-                name="onderwerp"
-                placeholder="Schrijf hier uw boodschap..."
-              ></textarea>
+            <label for="afstand">Onderwerp</label>
+            <input
+              type="text"
+              id="afstand"
+              name="afstand"
+              placeholder="Afstand (KM)"
+            />
 
-              <input type="submit" value="Verstuur" />
-            </form>
+            <input type="submit" value="Verstuur" />
+          </form>
         </div>
       </main>
     </div>
